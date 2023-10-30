@@ -19,10 +19,9 @@ Onion is a web service that is accessible via the Tor network. Tor provides anon
 **To run this project:**
 
 1. **SSH key**
+   
 Due to SSH fortification, you must have an SSH key present on your system, in the standard folder, with the base name (~/.ssh/id_rsa.pub).
-If you need to create one:
-
-``ssh-keygen -t rsa -b 4096``
+If you need to create one: ``ssh-keygen -t rsa -b 4096``
 
 
 2. **Then you have to fill the .env file in srcs folder and modify sshd_config accordly** :
@@ -68,7 +67,7 @@ AllowUsers [your_username]
 
 Replace **[username]** with the username you've set up and **[your_onion_address]** with the address displayed in the previous step.
 
-1. **Accessing the Web Page**
+5. **Accessing the Web Page**
 
 - Open Tor browser and go to :
 
