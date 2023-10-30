@@ -1,0 +1,9 @@
+services:
+  onion:
+    build:
+      context: .
+      args:
+        USERNAME: ${USERNAME}
+        PASSWORD: ${PASSWORD}
+    ports:
+      - "4242:4242"

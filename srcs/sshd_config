@@ -1,0 +1,10 @@
+Port 4242
+PermitRootLogin no
+PermitEmptyPasswords no
+LoginGraceTime 1m
+MaxAuthTries 3
+UsePAM no
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server
+AllowUsers [your_username]
+PasswordAuthentication no
